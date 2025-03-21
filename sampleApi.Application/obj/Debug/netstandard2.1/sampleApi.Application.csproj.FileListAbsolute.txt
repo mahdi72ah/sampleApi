@@ -1,0 +1,15 @@
+F:\MyProject\Asp\SampleApi\sampleApi\sampleApi.Application\bin\Debug\netstandard2.1\sampleApi.Application.deps.json
+F:\MyProject\Asp\SampleApi\sampleApi\sampleApi.Application\bin\Debug\netstandard2.1\sampleApi.Application.dll
+F:\MyProject\Asp\SampleApi\sampleApi\sampleApi.Application\bin\Debug\netstandard2.1\sampleApi.Application.pdb
+F:\MyProject\Asp\SampleApi\sampleApi\sampleApi.Application\bin\Debug\netstandard2.1\sampleApi.Core.dll
+F:\MyProject\Asp\SampleApi\sampleApi\sampleApi.Application\bin\Debug\netstandard2.1\sampleApi.Infrastructure.dll
+F:\MyProject\Asp\SampleApi\sampleApi\sampleApi.Application\bin\Debug\netstandard2.1\sampleApi.Core.pdb
+F:\MyProject\Asp\SampleApi\sampleApi\sampleApi.Application\bin\Debug\netstandard2.1\sampleApi.Infrastructure.pdb
+F:\MyProject\Asp\SampleApi\sampleApi\sampleApi.Application\obj\Debug\netstandard2.1\sampleApi.Application.csproj.AssemblyReference.cache
+F:\MyProject\Asp\SampleApi\sampleApi\sampleApi.Application\obj\Debug\netstandard2.1\sampleApi.Application.GeneratedMSBuildEditorConfig.editorconfig
+F:\MyProject\Asp\SampleApi\sampleApi\sampleApi.Application\obj\Debug\netstandard2.1\sampleApi.Application.AssemblyInfoInputs.cache
+F:\MyProject\Asp\SampleApi\sampleApi\sampleApi.Application\obj\Debug\netstandard2.1\sampleApi.Application.AssemblyInfo.cs
+F:\MyProject\Asp\SampleApi\sampleApi\sampleApi.Application\obj\Debug\netstandard2.1\sampleApi.Application.csproj.CoreCompileInputs.cache
+F:\MyProject\Asp\SampleApi\sampleApi\sampleApi.Application\obj\Debug\netstandard2.1\sampleApi.Application.csproj.CopyComplete
+F:\MyProject\Asp\SampleApi\sampleApi\sampleApi.Application\obj\Debug\netstandard2.1\sampleApi.Application.dll
+F:\MyProject\Asp\SampleApi\sampleApi\sampleApi.Application\obj\Debug\netstandard2.1\sampleApi.Application.pdb

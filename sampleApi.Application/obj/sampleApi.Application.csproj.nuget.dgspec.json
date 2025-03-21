@@ -1,0 +1,221 @@
+{
+  "format": 1,
+  "restore": {
+    "F:\\MyProject\\Asp\\SampleApi\\sampleApi\\sampleApi.Application\\sampleApi.Application.csproj": {}
+  },
+  "projects": {
+    "F:\\MyProject\\Asp\\SampleApi\\sampleApi\\sampleApi.Application\\sampleApi.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "F:\\MyProject\\Asp\\SampleApi\\sampleApi\\sampleApi.Application\\sampleApi.Application.csproj",
+        "projectName": "sampleApi.Application",
+        "projectPath": "F:\\MyProject\\Asp\\SampleApi\\sampleApi\\sampleApi.Application\\sampleApi.Application.csproj",
+        "packagesPath": "C:\\Users\\LOGA\\.nuget\\packages\\",
+        "outputPath": "F:\\MyProject\\Asp\\SampleApi\\sampleApi\\sampleApi.Application\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\LOGA\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {
+              "F:\\MyProject\\Asp\\SampleApi\\sampleApi\\sampleApi.Core\\sampleApi.Core.csproj": {
+                "projectPath": "F:\\MyProject\\Asp\\SampleApi\\sampleApi\\sampleApi.Core\\sampleApi.Core.csproj"
+              },
+              "F:\\MyProject\\Asp\\SampleApi\\sampleApi\\sampleApi.Infrastructure\\sampleApi.Infrastructure.csproj": {
+                "projectPath": "F:\\MyProject\\Asp\\SampleApi\\sampleApi\\sampleApi.Infrastructure\\sampleApi.Infrastructure.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[5.0.1, )"
+            },
+            "MediatR": {
+              "target": "Package",
+              "version": "[11.1.0, )"
+            },
+            "MediatR.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[11.1.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "NETStandard.Library": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "F:\\MyProject\\Asp\\SampleApi\\sampleApi\\sampleApi.Core\\sampleApi.Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "F:\\MyProject\\Asp\\SampleApi\\sampleApi\\sampleApi.Core\\sampleApi.Core.csproj",
+        "projectName": "sampleApi.Core",
+        "projectPath": "F:\\MyProject\\Asp\\SampleApi\\sampleApi\\sampleApi.Core\\sampleApi.Core.csproj",
+        "packagesPath": "C:\\Users\\LOGA\\.nuget\\packages\\",
+        "outputPath": "F:\\MyProject\\Asp\\SampleApi\\sampleApi\\sampleApi.Core\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\LOGA\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.17, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.17, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[5.0.17, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.17, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "NETStandard.Library": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "F:\\MyProject\\Asp\\SampleApi\\sampleApi\\sampleApi.Infrastructure\\sampleApi.Infrastructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "F:\\MyProject\\Asp\\SampleApi\\sampleApi\\sampleApi.Infrastructure\\sampleApi.Infrastructure.csproj",
+        "projectName": "sampleApi.Infrastructure",
+        "projectPath": "F:\\MyProject\\Asp\\SampleApi\\sampleApi\\sampleApi.Infrastructure\\sampleApi.Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\LOGA\\.nuget\\packages\\",
+        "outputPath": "F:\\MyProject\\Asp\\SampleApi\\sampleApi\\sampleApi.Infrastructure\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\LOGA\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {
+              "F:\\MyProject\\Asp\\SampleApi\\sampleApi\\sampleApi.Core\\sampleApi.Core.csproj": {
+                "projectPath": "F:\\MyProject\\Asp\\SampleApi\\sampleApi\\sampleApi.Core\\sampleApi.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "NETStandard.Library": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
