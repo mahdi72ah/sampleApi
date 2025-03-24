@@ -12,6 +12,7 @@ F:\MyProject\Asp\SampleApi\sampleApi\sampleApi\bin\Debug\net6.0\Humanizer.dll
 F:\MyProject\Asp\SampleApi\sampleApi\sampleApi\bin\Debug\net6.0\MediatR.dll
 F:\MyProject\Asp\SampleApi\sampleApi\sampleApi\bin\Debug\net6.0\MediatR.Contracts.dll
 F:\MyProject\Asp\SampleApi\sampleApi\sampleApi\bin\Debug\net6.0\MediatR.Extensions.Microsoft.DependencyInjection.dll
+F:\MyProject\Asp\SampleApi\sampleApi\sampleApi\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
 F:\MyProject\Asp\SampleApi\sampleApi\sampleApi\bin\Debug\net6.0\Microsoft.Data.SqlClient.dll
 F:\MyProject\Asp\SampleApi\sampleApi\sampleApi\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
 F:\MyProject\Asp\SampleApi\sampleApi\sampleApi\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll

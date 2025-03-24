@@ -46,7 +46,6 @@ namespace sampleApi.Application.Services
         {
             var product = _mapper.Map<Product>(model);
             await _productRepository.InsertAsync(product);
-            await _productRepository.InsertAsync(product);
             await _unitOfWork.SaveChangeAsync();
             model.Id = product.Id;
             return model;
