@@ -46,6 +46,7 @@ namespace sampleApi.Infrastructure.Utilitys
                     new Claim("userId", userId.ToString())
                 }),
                 Expires = DateTime.UtcNow.AddMinutes(_configs.TokenTimeOut),
+                //Audience = _configs.TokenAudience, // مقدار Audience از تنظیمات خوانده شود
                 SigningCredentials = new SigningCredentials(new SymmetricSecurityKey(key),
                     SecurityAlgorithms.HmacSha256Signature)
             };

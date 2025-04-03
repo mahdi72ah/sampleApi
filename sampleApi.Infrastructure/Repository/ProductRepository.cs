@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 using System.Threading.Tasks;
+using Microsoft.EntityFrameworkCore;
 using sampleApi.Core;
 using sampleApi.Core.Entities;
 using sampleApi.Core.IReposirories;
@@ -19,7 +20,8 @@ namespace sampleApi.Infrastructure.Reposirories
 
         public async Task<List<Product>> GetAllAsync()
         {
-            throw new NotImplementedException();
+            var result = await _dbContext.Product.ToListAsync();
+            return result;
         }
 
         public async Task<Product> GetAsync(int id)

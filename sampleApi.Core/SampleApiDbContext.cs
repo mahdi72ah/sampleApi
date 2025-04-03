@@ -16,10 +16,12 @@ namespace sampleApi.Core
         //public DbSet<Product> Products { get; set; }
         public DbSet<Product> Product => Set<Product>();
         public DbSet<Users> Users => Set<Users>();
+        public DbSet<UserRefreshToken> UserRefreshToken => Set<UserRefreshToken>();
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             modelBuilder.ApplyConfiguration(new ProductConfiguration());
             modelBuilder.ApplyConfiguration(new UsersConfiguration());
+            modelBuilder.ApplyConfiguration(new UserRefreshTokenConfiguration());
         }
     }
 }

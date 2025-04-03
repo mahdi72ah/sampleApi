@@ -30,7 +30,7 @@ namespace sampleApi.Application.Services
 
         public async Task<List<ProductDto>> GetAll()
         {
-            var products= await _dbContext.Product.ToListAsync();
+            var products= await _productRepository.GetAllAsync();
             var result = _mapper.Map<List<ProductDto>>(products);
             return result;
         }
