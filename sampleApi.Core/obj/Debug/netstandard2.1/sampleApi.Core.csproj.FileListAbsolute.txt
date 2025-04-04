@@ -1,10 +1,10 @@
 F:\MyProject\Asp\SampleApi\sampleApi\sampleApi.Core\bin\Debug\netstandard2.1\sampleApi.Core.deps.json
 F:\MyProject\Asp\SampleApi\sampleApi\sampleApi.Core\bin\Debug\netstandard2.1\sampleApi.Core.dll
 F:\MyProject\Asp\SampleApi\sampleApi\sampleApi.Core\bin\Debug\netstandard2.1\sampleApi.Core.pdb
+F:\MyProject\Asp\SampleApi\sampleApi\sampleApi.Core\obj\Debug\netstandard2.1\sampleApi.Core.csproj.AssemblyReference.cache
 F:\MyProject\Asp\SampleApi\sampleApi\sampleApi.Core\obj\Debug\netstandard2.1\sampleApi.Core.GeneratedMSBuildEditorConfig.editorconfig
 F:\MyProject\Asp\SampleApi\sampleApi\sampleApi.Core\obj\Debug\netstandard2.1\sampleApi.Core.AssemblyInfoInputs.cache
 F:\MyProject\Asp\SampleApi\sampleApi\sampleApi.Core\obj\Debug\netstandard2.1\sampleApi.Core.AssemblyInfo.cs
 F:\MyProject\Asp\SampleApi\sampleApi\sampleApi.Core\obj\Debug\netstandard2.1\sampleApi.Core.csproj.CoreCompileInputs.cache
 F:\MyProject\Asp\SampleApi\sampleApi\sampleApi.Core\obj\Debug\netstandard2.1\sampleApi.Core.dll
 F:\MyProject\Asp\SampleApi\sampleApi\sampleApi.Core\obj\Debug\netstandard2.1\sampleApi.Core.pdb
-F:\MyProject\Asp\SampleApi\sampleApi\sampleApi.Core\obj\Debug\netstandard2.1\sampleApi.Core.csproj.AssemblyReference.cache

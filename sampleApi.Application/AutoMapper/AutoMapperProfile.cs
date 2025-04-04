@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 using AutoMapper;
+using sampleApi.Application.CQRS.Notifications;
 using sampleApi.Application.CQRS.ProductCommandQuery.Query;
 using sampleApi.Core.Entities;
 using sampleApi.Infrastructure.Dtos;
@@ -23,6 +24,11 @@ namespace sampleApi.Application
                 .ForMember(dest => dest.CombinedInfo, opt => opt.MapFrom(src => $"{src.ProductName} {src.Price}"))
                 .ForMember(dest => dest.PriceWithComma, opt => opt.MapFrom(src => string.Format("{0:N0}", src.Price)))
                 .ForMember(dest => dest.Id, opt => opt.Ignore());
+
+            CreateMap<AddRefreshTokenNotification, UserRefreshToken>()
+                .ForMember(dest => dest.IsValid, opt => opt.MapFrom(src => true))
+                .ForMember(dest => dest.UsersId, opt => opt.MapFrom(src => src.UserId))
+                .ForMember(dest => dest.CreateDate,opt =>opt.MapFrom(src=>DateTime.Now));
         }
     }
 }

@@ -8,6 +8,6 @@ namespace sampleApi.Infrastructure.Model
     {
         public int TokenTimeOut { get; set; }
         public string TokenKey{ get; set; }
-        public string TokenAudience { get; set; }
+        public int RefreshTokenTimeOut { get; set; }
     }
 }

@@ -21,6 +21,7 @@ namespace sampleApi.Infrastructure
         {
             service.AddScoped<IProductRepository, ProductRepository>();
             service.AddScoped<IUsersRepository, UsersRepository>();
+            service.AddScoped<IUserRefreshTokenRepository, UserRefreshTokenRepository>();
         }
 
         public static void AddUnitOfWork(this IServiceCollection service)

@@ -23,6 +23,7 @@ builder.Services.AddJwt();
 builder.Services.AddRepositories();
 builder.Services.AddScoped<IProductService, ProductService>();
 builder.Services.AddScoped<IUsersService, UsersService>();
+builder.Services.AddScoped<IUserRefreshTokenService, UserRefreshTokenService>();
 builder.Services.AddUnitOfWork();
 builder.Services.AddEncryptionUtility();
 

@@ -34,6 +34,11 @@ namespace sampleApi.Infrastructure.Utilitys
             return Guid.NewGuid().ToString();
         }
 
+        public string GetNewRefreshToken()
+        {
+            return Guid.NewGuid().ToString();
+        }
+
         public string GetNewToken(Guid userId)
         {
             var tokenHandler = new JwtSecurityTokenHandler();
